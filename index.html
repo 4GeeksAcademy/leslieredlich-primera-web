@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico -->
+  <title>Alma Ríos | Cantautora chilena — Música, trayectoria y conciertos</title>
+  <meta name="description" content="Sitio oficial de Alma Ríos, cantautora chilena de folk contemporáneo. Conoce su historia, su trayectoria artística y las fechas de sus próximas presentaciones en vivo.">
+  <meta name="keywords" content="Alma Ríos, cantautora chilena, folk contemporáneo, conciertos Chile, música en vivo, Raíz de agua">
+  <meta name="author" content="Alma Ríos">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#140f17">
+
+  <!-- Open Graph (vista previa al compartir en redes sociales) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Alma Ríos | Cantautora chilena">
+  <meta property="og:description" content="Folk contemporáneo desde el sur de Chile. Descubre su música y sus próximos conciertos.">
+  <meta property="og:locale" content="es_CL">
+
+  <!-- Ícono de la pestaña (SVG en línea, sin archivos extra) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23140f17'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23f2a65a' stroke-width='4'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23f2a65a'/%3E%3C/svg%3E">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Schema.org: toda la página describe a una Persona (la artista) -->
+<body itemscope itemtype="https://schema.org/Person">
+
+  <!-- Enlace para saltar directo al contenido (útil con teclado y lectores de pantalla) -->
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Alma Ríos, volver al inicio">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Alma Ríos</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#presentaciones">Próximas presentaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ===================== PORTADA ===================== -->
+    <section id="inicio" class="section hero" aria-labelledby="titulo-portada">
+      <div class="hero-spotlight" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Bienvenidos y bienvenidas</p>
+          <h1 id="titulo-portada">
+            <span itemprop="name">Alma Ríos</span>
+          </h1>
+          <p class="hero-role">
+            <span itemprop="jobTitle">Cantautora</span> de folk contemporáneo
+          </p>
+          <p class="hero-lead" itemprop="description">
+            Canciones que nacen entre la lluvia del sur y el ruido de la ciudad.
+            Guitarra, voz y memoria para quien quiera escuchar.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#presentaciones">Ver próximos conciertos</a>
+            <a class="btn btn-ghost" href="#sobre-mi">Conóceme</a>
+          </div>
+        </div>
+
+        <!-- Ilustración decorativa: se oculta a lectores de pantalla -->
+        <div class="hero-art" aria-hidden="true">
+          <div class="vinyl">
+            <div class="vinyl-label"></div>
+          </div>
+          <div class="equalizer">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#sobre-mi">
+        <span class="visually-hidden">Ir a la sección Sobre mí</span>
+        <span class="scroll-hint-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section id="sobre-mi" class="section about" aria-labelledby="titulo-sobre-mi">
+      <div class="container about-grid">
+        <figure class="album">
+          <img
+            src="img/raiz-de-agua.svg"
+            alt="Portada del álbum Raíz de agua: un sol naranjo que se hunde sobre ondas de agua en tonos violeta."
+            width="480" height="480"
+            itemprop="image">
+          <figcaption>Portada de <cite>Raíz de agua</cite> (2025), su segundo álbum.</figcaption>
+        </figure>
+
+        <div class="about-text">
+          <p class="eyebrow">Sobre mí</p>
+          <h2 id="titulo-sobre-mi">Una voz que viene del sur</h2>
+
+          <p>
+            Nací en <span itemprop="birthPlace" itemscope itemtype="https://schema.org/Place"><span itemprop="name">Valdivia</span></span>,
+            donde aprendí a tocar guitarra con mi abuela y a escribir escuchando la lluvia sobre el techo de zinc.
+            Hoy vivo en <span itemprop="homeLocation" itemscope itemtype="https://schema.org/Place"><span itemprop="name">Santiago de Chile</span></span>
+            y hago canciones que mezclan el folclor latinoamericano con sonidos actuales.
+          </p>
+          <p>
+            Mi música habla de territorios, de mujeres que resisten y de lo que se queda cuando uno se va.
+            Cada concierto es una conversación íntima con el público.
+          </p>
+
+          <dl class="facts">
+            <div>
+              <dt>Género</dt>
+              <dd>Folk contemporáneo</dd>
+            </div>
+            <div>
+              <dt>Instrumentos</dt>
+              <dd>Voz, guitarra y charango</dd>
+            </div>
+            <div>
+              <dt>Nacionalidad</dt>
+              <dd itemprop="nationality" itemscope itemtype="https://schema.org/Country">
+                <span itemprop="name">Chilena</span>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAYECTORIA ===================== -->
+    <section id="trayectoria" class="section career" aria-labelledby="titulo-trayectoria">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Trayectoria</p>
+          <h2 id="titulo-trayectoria">Diez años de camino</h2>
+          <p class="section-intro">Algunos hitos que han marcado su carrera artística.</p>
+        </header>
+
+        <!-- Lista ordenada: el orden cronológico tiene significado -->
+        <ol class="timeline">
+          <li class="timeline-item">
+            <time datetime="2016">2016</time>
+            <h3>Primeros escenarios</h3>
+            <p>Comienza a presentarse en bares y centros culturales de Valdivia con un repertorio propio.</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2019">2019</time>
+            <h3>EP debut <cite>Leña húmeda</cite></h3>
+            <p>Cinco canciones grabadas de forma independiente que la llevan a girar por el sur de Chile.</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2021">2021</time>
+            <h3>Álbum <cite>Cordillera adentro</cite></h3>
+            <p>
+              Su primer larga duración obtiene el
+              <span itemprop="award">Premio a la Mejor Artista Emergente Folk 2021</span>.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2023">2023</time>
+            <h3>Gira latinoamericana</h3>
+            <p>Más de 30 conciertos entre Chile, Argentina, Perú y México.</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2025">2025</time>
+            <h3>Álbum <cite>Raíz de agua</cite></h3>
+            <p>Su disco más personal, presentado con entradas agotadas en Santiago.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== PRÓXIMAS PRESENTACIONES ===================== -->
+    <section id="presentaciones" class="section shows" aria-labelledby="titulo-presentaciones">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Agenda</p>
+          <h2 id="titulo-presentaciones">Próximas presentaciones</h2>
+          <p class="section-intro">Gira <cite>Raíz de agua</cite> 2026 – 2027. ¡Te espero!</p>
+        </header>
+
+        <ul class="show-list">
+          <!-- Cada concierto es un MusicEvent de Schema.org -->
+          <li>
+            <article class="show-card" itemprop="performerIn" itemscope itemtype="https://schema.org/MusicEvent">
+              <time class="show-date" datetime="2026-12-12T21:00-03:00" itemprop="startDate">
+                <span class="show-day">12</span>
+                <span class="show-month">Dic 2026</span>
+              </time>
+              <div class="show-info">
+                <h3 itemprop="name">Raíz de agua en Santiago</h3>
+                <p itemprop="location" itemscope itemtype="https://schema.org/Place">
+                  <span itemprop="name">Teatro Nescafé de las Artes</span>,
+                  <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Santiago</span>
+                    <meta itemprop="addressCountry" content="CL">
+                  </span>
+                </p>
+                <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+                <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
+                <span itemprop="performer" itemscope itemtype="https://schema.org/Person">
+                  <meta itemprop="name" content="Alma Ríos">
+                </span>
+              </div>
+              <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="availability" content="https://schema.org/InStock">
+                <a class="btn btn-primary btn-small" href="#presentaciones" itemprop="url"
+                   aria-label="Comprar entradas para el concierto del 12 de diciembre de 2026 en Santiago">Entradas</a>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="show-card" itemprop="performerIn" itemscope itemtype="https://schema.org/MusicEvent">
+              <time class="show-date" datetime="2027-01-23T20:30-03:00" itemprop="startDate">
+                <span class="show-day">23</span>
+                <span class="show-month">Ene 2027</span>
+              </time>
+              <div class="show-info">
+                <h3 itemprop="name">Concierto acústico frente al mar</h3>
+                <p itemprop="location" itemscope itemtype="https://schema.org/Place">
+                  <span itemprop="name">Parque Cultural de Valparaíso</span>,
+                  <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Valparaíso</span>
+                    <meta itemprop="addressCountry" content="CL">
+                  </span>
+                </p>
+                <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+                <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
+                <span itemprop="performer" itemscope itemtype="https://schema.org/Person">
+                  <meta itemprop="name" content="Alma Ríos">
+                </span>
+              </div>
+              <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="availability" content="https://schema.org/InStock">
+                <a class="btn btn-primary btn-small" href="#presentaciones" itemprop="url"
+                   aria-label="Comprar entradas para el concierto del 23 de enero de 2027 en Valparaíso">Entradas</a>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="show-card" itemprop="performerIn" itemscope itemtype="https://schema.org/MusicEvent">
+              <time class="show-date" datetime="2027-02-14T21:00-03:00" itemprop="startDate">
+                <span class="show-day">14</span>
+                <span class="show-month">Feb 2027</span>
+              </time>
+              <div class="show-info">
+                <h3 itemprop="name">Festival Lluvia de Verano</h3>
+                <p itemprop="location" itemscope itemtype="https://schema.org/Place">
+                  <span itemprop="name">Teatro Regional Cervantes</span>,
+                  <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Valdivia</span>
+                    <meta itemprop="addressCountry" content="CL">
+                  </span>
+                </p>
+                <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+                <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
+                <span itemprop="performer" itemscope itemtype="https://schema.org/Person">
+                  <meta itemprop="name" content="Alma Ríos">
+                </span>
+              </div>
+              <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="availability" content="https://schema.org/LimitedAvailability">
+                <a class="btn btn-primary btn-small" href="#presentaciones" itemprop="url"
+                   aria-label="Comprar entradas para el concierto del 14 de febrero de 2027 en Valdivia, últimas entradas">Últimas entradas</a>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="show-card" itemprop="performerIn" itemscope itemtype="https://schema.org/MusicEvent">
+              <time class="show-date" datetime="2027-03-20T20:00-03:00" itemprop="startDate">
+                <span class="show-day">20</span>
+                <span class="show-month">Mar 2027</span>
+              </time>
+              <div class="show-info">
+                <h3 itemprop="name">Noche de canciones en Concepción</h3>
+                <p itemprop="location" itemscope itemtype="https://schema.org/Place">
+                  <span itemprop="name">Teatro Biobío</span>,
+                  <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Concepción</span>
+                    <meta itemprop="addressCountry" content="CL">
+                  </span>
+                </p>
+                <meta itemprop="eventStatus" content="https://schema.org/EventScheduled">
+                <meta itemprop="eventAttendanceMode" content="https://schema.org/OfflineEventAttendanceMode">
+                <span itemprop="performer" itemscope itemtype="https://schema.org/Person">
+                  <meta itemprop="name" content="Alma Ríos">
+                </span>
+              </div>
+              <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="availability" content="https://schema.org/InStock">
+                <a class="btn btn-primary btn-small" href="#presentaciones" itemprop="url"
+                   aria-label="Comprar entradas para el concierto del 20 de marzo de 2027 en Concepción">Entradas</a>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <address>
+        Contrataciones y prensa:
+        <a href="mailto:contacto@almarios.cl" itemprop="email">contacto@almarios.cl</a>
+      </address>
+
+      <nav aria-label="Redes sociales">
+        <ul class="social">
+          <li><a href="https://www.instagram.com/" itemprop="sameAs" rel="me noopener" target="_blank">Instagram<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://open.spotify.com/" itemprop="sameAs" rel="me noopener" target="_blank">Spotify<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://www.youtube.com/" itemprop="sameAs" rel="me noopener" target="_blank">YouTube<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a></li>
+        </ul>
+      </nav>
+
+      <p class="copyright"><small>&copy; 2026 Alma Ríos. Todos los derechos reservados.</small></p>
+    </div>
+  </footer>
+
+</body>
+</html>
